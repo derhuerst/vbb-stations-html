@@ -26,6 +26,6 @@
 		"vbb-util": "^0.10.1"
 	},
 	"scripts": {
-		"build": "node index.js"
+		"build": "node index.js >docs/index.html"
 	}
 }
