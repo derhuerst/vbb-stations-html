@@ -17,5 +17,15 @@
 	"license": "ISC",
 	"engines": {
 		"node": ">=6"
+	},
+	"devDependencies": {
+		"hyperscript": "^2.0.2",
+		"lodash.sortby": "^4.7.0",
+		"vbb-lines-at": "^3.5.0",
+		"vbb-stations": "^5.4.0",
+		"vbb-util": "^0.10.1"
+	},
+	"scripts": {
+		"build": "node index.js"
 	}
 }

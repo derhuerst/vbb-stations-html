@@ -1,0 +1,32 @@
+body {
+	margin: 0; padding: 0;
+	background-color: #fff;
+	font-family: sans-serif;
+	font-weight: 300;
+	/*todo: system sans-serif font*/
+	font-size: 105%;
+	line-height: 1.25;
+}
+
+code {
+	padding: .15em .25em;
+	background-color: #ccc;
+	border: 1px solid #bbb;
+	border-radius: .15em;
+}
+
+.line {
+	display: inline-block;
+	margin: 0 .1em;
+	padding: .1em .25em;
+}
+.line.suburban, .line.bus {
+	border-radius: 1em;
+	padding-left: .3em;
+	padding-right: .3em;
+}
+
+#footer .love {
+	font-size: 150%;
+	color: #e74c3c;
+}
