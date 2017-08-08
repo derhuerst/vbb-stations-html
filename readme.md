@@ -2,7 +2,6 @@
 
 **Build an HTML index of all VBB stations.**
 
-[![npm version](https://img.shields.io/npm/v/vbb-stations-html.svg)](https://www.npmjs.com/package/vbb-stations-html)
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/vbb-stations-html.svg)
 [![chat on gitter](https://badges.gitter.im/derhuerst.svg)](https://gitter.im/derhuerst)
 

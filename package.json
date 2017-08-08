@@ -1,7 +1,7 @@
 {
 	"private": true,
 	"name": "vbb-stations-html",
-	"description": "Build an HTML index of all VBB stations.",
+	"description": "An HTML index of all VBB stations.",
 	"version": "0.1.0",
 	"main": "index.js",
 	"keywords": [
@@ -21,7 +21,9 @@
 	"devDependencies": {
 		"hyperscript": "^2.0.2",
 		"lodash.sortby": "^4.7.0",
+		"lodash.uniqby": "^4.7.0",
 		"vbb-lines-at": "^3.5.0",
+		"vbb-sort-lines": "^0.2.0",
 		"vbb-stations": "^5.4.0",
 		"vbb-util": "^0.10.1"
 	},

@@ -2,7 +2,9 @@
 
 const getStations = require('vbb-stations')
 const sortBy = require('lodash.sortby')
+const uniqBy = require('lodash.uniqby')
 const linesAt = require('vbb-lines-at')
+const sortLines = require('vbb-sort-lines')
 const colors = require('vbb-util/lines/colors')
 const products = require('vbb-util/products')
 const h = require('hyperscript')
@@ -24,10 +26,15 @@ const colorOfLine = (line) => {
 	return color
 }
 
+const deduplicateLines = (l) => {
+	return l.name.toLowerCase().trim() + '-' + l.product
+}
+
 const stations = sortBy(getStations('all'), 'id')
 const rows = []
 for (let station of stations) {
-	const lines = linesAt[station.id]
+	const lines = uniqBy(linesAt[station.id], deduplicateLines)
+	.sort(sortLines)
 	.map((line) => Object.assign(colorOfLine(line), line))
 
 	rows.push(render(station, lines))
