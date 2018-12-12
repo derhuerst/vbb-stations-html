@@ -5,7 +5,7 @@ const sortBy = require('lodash.sortby')
 const uniqBy = require('lodash.uniqby')
 const linesAt = require('vbb-lines-at')
 const sortLines = require('vbb-sort-lines')
-const colors = require('vbb-util/lines/colors')
+const colors = require('vbb-line-colors')
 const products = require('vbb-util/products')
 const h = require('hyperscript')
 
