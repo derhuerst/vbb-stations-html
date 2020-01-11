@@ -23,7 +23,7 @@
 		"lodash.sortby": "^4.7.0",
 		"lodash.uniqby": "^4.7.0",
 		"vbb-line-colors": "^1.0.0",
-		"vbb-lines-at": "^3.5.0",
+		"vbb-lines-at": "^4.1.0",
 		"vbb-sort-lines": "^0.2.0",
 		"vbb-stations": "^7.0.0",
 		"vbb-util": "^0.10.1"
